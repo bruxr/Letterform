@@ -1,0 +1,27 @@
+.post-title {
+	margin-bottom: 20px;
+}
+
+.post-title h2 {
+	font-weight: normal;
+	margin-bottom: 0;
+
+	a {
+		color: #e74c3c;
+		display: inline-block;
+		text-decoration: none;
+	}
+	
+	a:hover {
+		background-color: #e74c3c;
+		color: #fff;
+	}
+}
+
+.post-time {
+	color: #999;
+}
+
+.post-title:hover .hidden {
+	display: inline;
+}

@@ -1,0 +1,39 @@
+$fixedFont: Menlo, Monaco, "Lucida Console", "Courier New", monospace;
+
+// Global styles
+body {
+	color: #333;
+	font: .8em/2.5em $fixedFont;
+}
+
+h1 {
+	font: 3em/1em Oswald, Arial, sans-serif;
+}
+
+h2, h3, h4 {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+// Header
+#site-title {
+	margin-bottom: 0;
+	
+	a {
+		color: #333;
+		text-decoration: none;
+		transition: all 150ms ease-out;
+	}
+	
+	a:hover {
+		color: #e74c3c;
+	}
+}
+
+#site-desc {
+	color: #777;
+	font: 1em $fixedFont;
+}

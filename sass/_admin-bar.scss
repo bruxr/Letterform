@@ -1,0 +1,9 @@
+#wpadminbar {
+	position: absolute;
+	top: -22px;
+	transition: top 250ms ease;
+	
+	&:hover {
+		top: 0;
+	}
+}
